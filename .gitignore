@@ -1,0 +1,21 @@
+# Large raw dataset file (493 MB - download instructions in data/README.md)
+data/PS_20174392719_1491204439457_log.csv
+data/*.zip
+
+# Python Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+env/
+.env
+
+# OS specific files
+.DS_Store
+Thumbs.db

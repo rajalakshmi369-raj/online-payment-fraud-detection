@@ -1,0 +1,110 @@
+{
+  "best_model_name": "Random Forest",
+  "test_size": 57562,
+  "test_fraud_count": 1643,
+  "test_legit_count": 55919,
+  "models": {
+    "Logistic Regression": {
+      "Accuracy": 95.68,
+      "Precision": 39.48,
+      "Recall": 96.1,
+      "F1_Score": 55.96,
+      "ROC_AUC": 99.19,
+      "PR_AUC": 88.28,
+      "Training_Time_s": 0.39
+    },
+    "Decision Tree": {
+      "Accuracy": 99.97,
+      "Precision": 99.15,
+      "Recall": 99.63,
+      "F1_Score": 99.39,
+      "ROC_AUC": 99.81,
+      "PR_AUC": 99.22,
+      "Training_Time_s": 0.97
+    },
+    "Random Forest": {
+      "Accuracy": 99.99,
+      "Precision": 99.94,
+      "Recall": 99.57,
+      "F1_Score": 99.76,
+      "ROC_AUC": 99.97,
+      "PR_AUC": 99.86,
+      "Training_Time_s": 2.52
+    },
+    "XGBoost": {
+      "Accuracy": 99.98,
+      "Precision": 99.63,
+      "Recall": 99.63,
+      "F1_Score": 99.63,
+      "ROC_AUC": 99.96,
+      "PR_AUC": 99.78,
+      "Training_Time_s": 3.23
+    }
+  },
+  "confusion_matrices": {
+    "Logistic Regression": {
+      "TN": 53498,
+      "FP": 2421,
+      "FN": 64,
+      "TP": 1579,
+      "matrix": [
+        [
+          53498,
+          2421
+        ],
+        [
+          64,
+          1579
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "TN": 55905,
+      "FP": 14,
+      "FN": 6,
+      "TP": 1637,
+      "matrix": [
+        [
+          55905,
+          14
+        ],
+        [
+          6,
+          1637
+        ]
+      ]
+    },
+    "Random Forest": {
+      "TN": 55918,
+      "FP": 1,
+      "FN": 7,
+      "TP": 1636,
+      "matrix": [
+        [
+          55918,
+          1
+        ],
+        [
+          7,
+          1636
+        ]
+      ]
+    },
+    "XGBoost": {
+      "TN": 55913,
+      "FP": 6,
+      "FN": 6,
+      "TP": 1637,
+      "matrix": [
+        [
+          55913,
+          6
+        ],
+        [
+          6,
+          1637
+        ]
+      ]
+    }
+  }
+}
